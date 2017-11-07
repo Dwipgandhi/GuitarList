@@ -1,0 +1,199 @@
+#home{
+    background-color: lightgray;
+    height: 900px;
+    width: 1500px;
+}
+#nav{
+    height: 50px;
+    width: 1500px;
+    background-color: antiquewhite;
+    float: left;
+}
+.dropbtn {
+    background-color: lightblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.guitars {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: lightblue}
+
+.guitars:hover .dropdown-content {
+    display: block;
+}
+
+.guitars:hover .dropbtn {
+    background-color: lightcoral;
+}
+/*
+#nav1{
+    width: 214px;
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+#nav1 guitars{
+    background-color: antiquewhite;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#sub1{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+#sub1 a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#sub1 a:hover {
+    background-color: #f1f1f1
+}*/
+#nav2{
+    width: 214px;
+    float: left;
+}
+#nav3{
+    width: 214px;
+    float: left;
+}
+#nav4{
+    width: 214px;
+    float: left;
+}
+#nav5{
+    width: 214px;
+    float: left;
+}
+#nav6{
+    width: 214px;
+    float: left;
+}
+#nav7{
+    width: 214px;
+    float: left;
+}
+#guitarpic{
+    /*background-image: url("images/main.jpg");*/
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+#guitarpic2{
+    /*background-image: url("images/main.jpg");*/
+    width: 600px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+#prev_button{
+    margin-top: 20px;
+    margin-left: 450px;
+    float: left;
+}
+#next_button{
+    margin-right: 450px;
+    float: right;
+    margin-top: 20px;
+}
+#prod_info{
+    background-color: lightcyan;
+    height: 80px;
+    width: 600px;
+    float: left;
+    margin-left: 450px;
+    margin-top: 5px;
+}
+#prod_info2{
+    background-color: lightcyan;
+    height: 80px;
+    width: 600px;
+    float: left;
+    margin-left: 450px;
+    margin-top: 5px;
+}
+#ship_info{
+    background-color: aliceblue;
+    height: 30px;
+    width: 600px;
+    float: left;
+    margin-left: 450px;
+    margin-top: 5px;
+}
+#cust_reviews{
+    background-color: cornsilk;
+    height: 120px;
+    width: 600px;
+    float: left;
+    margin-left: 450px;
+    margin-top: 5px;
+}
+#buy_button{
+    float: right;
+    margin-right: 450px;
+    margin-top: 5px;
+}
+#form1{
+    height: 80px;
+    width: 600px;
+    float: left;
+    margin-left: 450px;
+    margin-top: 5px;
+}
+#fname{
+    background-color: aliceblue;
+    height: 30px;
+    width: 600px;
+    float: left;
+}
+#lname{
+    background-color: aliceblue;
+    height: 30px;
+    width: 600px;
+    float: left;
+}
+#carddet{
+    background-color: aliceblue;
+    height: 30px;
+    width: 600px;
+    float: left;
+}
+#email1{
+    background-color: aliceblue;
+    height: 30px;
+    width: 600px;
+    float: left;
+}
