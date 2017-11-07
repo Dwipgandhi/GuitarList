@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy Guitar</title>
+    <link rel="stylesheet" href="guitarliststyle.css">
+</head>
+<body>
+    <div id="home">
+        <div>
+            <img id="guitarpic" src="images/main.jpg">
+        </div>
+        <div id="prod_info">
+            <input type="button" name="prod_info" value="Product Information" onclick="prod_info()">
+        </div>
+        <form id="form1">
+            <span>Firstname:</span>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter a firstname"> <br><br>
+            <span>Lastname:</span>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter a lastname">  <br><br>
+            <span>Credit Card Details:</span>
+            <input type="text" id="card" name="card" placeholder="Enter a Card Number">  <br><br>
+            <span>Email:</span>
+            <input type="email" id="email" name="email" placeholder="Enter email"> <br><br>
+            <input type="button" value="GotoReview" name="submit" onclick="gotoreview()"> <br><br>
+            <input type="button" value="edit" name="edit" onclick="edit1()"> <br><br>
+            <div id="fname">
+            </div>
+            <div id="lname">
+            </div>
+            <div id="carddet">
+            </div>
+            <div id="email1">
+            </div>
+            <input type="button" value="BuyItem" id="buyItem" name="submit" onclick="buyItem1()">
+        </form>
+    </div>
+    <script src="guitar3.js">
+    </script>
+</body>
+</html>

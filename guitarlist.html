@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guitarlist</title>
+    <link rel="stylesheet" href="guitarliststyle.css">
+</head>
+<body>
+    <div id="home">
+        <div id="nav">
+            <div class="guitars">
+                <button class="dropbtn">Guitars</button>
+                <div class="dropdown-content">
+                    <a href="#guitars">Electric Guitars</a>
+                    <a href="#guitars">Acoustic Guitars</a>
+                    <a href="#guitars">Classical Guitars</a>
+                </div>
+            </div>
+            <div id="nav2">
+                <ul name="bass">
+                    <a href="#bass">Bass</a>
+                </ul>
+            </div>
+            <div id="nav3">
+                <ul name="drums">
+                    <a href="#drums">Drums</a>
+                </ul>
+            </div>
+            <div id="nav4">
+                <ul name="keyboards">
+                    <a href="#keyboards">Keyboards</a>
+                </ul>
+            </div>
+            <div id="nav5">
+                <ul name="DJ">
+                    <a href="#dj">DJ&Lightning</a>
+                </ul>
+            </div>
+            <div id="nav6">
+                <ul name="usedgear">
+                    <a href="#usedgear">Used Gear</a>
+                </ul>
+            </div>
+            <div id="nav7">
+                <ul name="clearance">
+                    <a href="#clearance">Clearance</a>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <img id="guitarpic" src="images/main.jpg">
+        </div>
+        <div id="prev_button">
+            <input type="button" name="prev" value="previous" onclick="prev()">
+        </div>
+        <div id="next_button">
+            <input type="button" name="next" value="next" onclick="next()">
+        </div>
+        <div id="prod_info">
+            <input type="button" name="prod_info" value="Product Information" onclick="prod_info()">
+        </div>
+        <div id="ship_info">
+            <input type="button" name="ship_info" value="Ship Information" onclick="ship_info()">
+        </div>
+        <div id="cust_reviews">
+            <input type="button" name="cust_reviews" value="Customer Reviews" onclick="cust_rev()">
+        </div>
+        <div id="buy_button">
+            <input type="button" name="buy" id="buy" value="Buy" onclick="buy()" >
+        </div>
+    </div>
+    <script src="guitar2.js">
+    </script>
+</body>
+</html>
